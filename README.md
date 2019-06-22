@@ -6,3 +6,7 @@
 git忽略掉一些已经提交到远程仓库的文件 例如.idea/workspace.xml 执行下面命令后在.gitignore文件里面添加上.idea/workspace.xml文件
 
 > git rm -r --cached .idea
+
+git合并
+
+> git --no-f -m "xxx" 分支名
