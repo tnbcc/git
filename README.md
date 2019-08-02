@@ -10,6 +10,7 @@ git忽略掉一些已经提交到远程仓库的文件 例如.idea/workspace.xml
 git 比较两个版本之间的差异文件并且打包
 
 > git diff f92be38 bf0505c --name-only | xargs tar -zcvf /home/download/update.tar.gz
+> git archive -o ../updated.zip HEAD $(git diff ac78338a8 53fa30711ae5 --name-only)
 
 git合并
 
